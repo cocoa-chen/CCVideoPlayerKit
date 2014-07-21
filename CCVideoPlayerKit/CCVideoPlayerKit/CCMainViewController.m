@@ -65,7 +65,7 @@
 - (void)onPlayNetworkVideoButtonTapped
 {
     
-    NSURL *videoUrl = [NSURL URLWithString:@"http://v.youku.com/player/getM3U8/vid/XNzIxNTE0NDcy/type/mp4/video.m3u8?password="];
+    NSURL *videoUrl = [NSURL URLWithString:@"http://v.youku.com/player/getM3U8/vid/XNzIxNTE0NDcy/type/mp4/video.m3u8"];
     CCVideoPlayerViewController *playerVc = [[CCVideoPlayerViewController alloc] initNetworkVideoPlayerViewControllerWithURL:videoUrl videoTitle:@"小苹果MV"];
     [self presentViewController:playerVc animated:YES completion:^{
         //Loading Video
